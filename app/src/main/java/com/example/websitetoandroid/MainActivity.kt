@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val myWebView: WebView = findViewById(R.id.web_view)
-        myWebView.loadUrl("https://androidexample365.com/")
+        myWebView.loadUrl("https://zzetao.github.io/awesome-github-profile/")
         myWebView.settings.javaScriptEnabled = true
         myWebView.webViewClient = WebViewClient()
         fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
